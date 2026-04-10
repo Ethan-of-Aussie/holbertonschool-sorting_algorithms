@@ -64,3 +64,10 @@ gcc -Wall -Wextra -Werror -pedantic 0-bubble_sort.c 0-main.c print_array.c -o bu
 git add .
 git commit -m "betty fixes T.1"
 git push
+git add .
+git commit -m "betty fixes T.1"
+git push
+emacs 0-bubble_sort.c
+cp 0-bubble_sort.c 1-insertion_sort_list.c
+emacs 1-main.c
+emacs 1-insertion_sort_list.c, 1-O
