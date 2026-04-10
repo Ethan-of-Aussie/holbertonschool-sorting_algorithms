@@ -71,3 +71,6 @@ emacs 0-bubble_sort.c
 cp 0-bubble_sort.c 1-insertion_sort_list.c
 emacs 1-main.c
 emacs 1-insertion_sort_list.c, 1-O
+git add .
+git commit -m "save T.2"
+git push
