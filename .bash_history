@@ -74,3 +74,8 @@ emacs 1-insertion_sort_list.c, 1-O
 git add .
 git commit -m "save T.2"
 git push
+git add .
+git commit -m "save T.2"
+git push
+emacs .gitignore
+ls

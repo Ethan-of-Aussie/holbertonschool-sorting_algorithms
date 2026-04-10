@@ -22,19 +22,17 @@ insertion_sort_list(listint_t **list);
 	size_t i = 0, j = 0;
 	bool swapped;
 
-	while (i < size - 1)
+	while (i <  - 1)
 	{
 		swapped = false;
-		j = 0;
-	while (j < size - i - 1)
+	while ( < - i - 1)
 		{
-	if (array[j] > array[j + 1])
+	if ( > - i - 1)
 		{
-		swap(&array[j], &array[j + 1]);
+		swap();
 		print_array(list);
 		swapped = true;
 		}
-	j++;
 	}
 		if (swapped == false)
 		break;
