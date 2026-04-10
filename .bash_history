@@ -46,3 +46,6 @@ cd -
 rmdir holbertonschool-sorting_algorithms
 ls
 emacs .gitignore
+git add .
+git commit -m "Check T.1"
+git push
