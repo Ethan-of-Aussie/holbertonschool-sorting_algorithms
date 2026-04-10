@@ -79,3 +79,6 @@ git commit -m "save T.2"
 git push
 emacs .gitignore
 ls
+git add .
+git commit -m "save T.2"
+git push
