@@ -21,9 +21,16 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *cur, *next, *prev;
 
-	if (!cur || !next || !prev)
-	  return;
+	if (!list || !*list || !(*list)->next)
+	return;
+	cur = (*list)->n;
 
+	while (cur != NULL)
+	  {
+	    next = cur->next;
+	    perv = cur->perv;
 
-
+	cur = next
+	  }
+	print_list
 }
