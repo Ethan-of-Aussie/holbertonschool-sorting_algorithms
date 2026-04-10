@@ -61,3 +61,6 @@ git push
 emacs 0-O
 betty 0-bubble_sort.c
 gcc -Wall -Wextra -Werror -pedantic 0-bubble_sort.c 0-main.c print_array.c -o bubble
+git add .
+git commit -m "betty fixes T.1"
+git push
