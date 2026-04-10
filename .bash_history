@@ -82,3 +82,6 @@ ls
 git add .
 git commit -m "save T.2"
 git push
+git add .
+git commit -m "save T.2"
+git push

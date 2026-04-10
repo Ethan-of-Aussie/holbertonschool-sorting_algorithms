@@ -17,7 +17,7 @@ void swap(int *xp, int *yp)
  *@list:
  */
 
-insertion_sort_list(listint_t **list)
+void insertion_sort_list(listint_t **list)
 {
 
 
