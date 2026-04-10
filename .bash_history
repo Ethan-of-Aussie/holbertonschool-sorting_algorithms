@@ -52,3 +52,6 @@ git push
 git add .
 git commit -m "Check T.1"
 git push
+git add .
+git commit -m "Check T.1"
+git push
