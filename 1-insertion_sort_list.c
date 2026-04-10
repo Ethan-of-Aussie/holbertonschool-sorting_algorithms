@@ -19,7 +19,10 @@ void swap(int *xp, int *yp)
 
 void insertion_sort_list(listint_t **list)
 {
+	listint_t *cur, *next, *prev;
 
+	if (!cur || !next || !prev)
+	  return;
 
 
 
