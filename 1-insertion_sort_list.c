@@ -1,36 +1,40 @@
 #include "sort.h"
 /**
- *swap - Function to swap two elements
- *@xp: First element
- *@yp: Second element
- */
-void swap(int *xp, int *yp)
-{
-	int temp = *xp;
-	*xp = *yp;
-	*yp = temp;
-}
-
-/**
- *insertion_sort_list - Sorting array with insertion sort algo
+ *insertion_sort_list - Sorting doubly linked list with 
+ *insertion sort algorithm
  *
- *@list:
+ *@list: The doubly linked list
  */
 
 void insertion_sort_list(listint_t **list)
 {
-	listint_t *cur, *next, *prev;
+	listint_t *cur = (*list)->next, *temp;
 
 	if (!list || !*list || !(*list)->next)
 	return;
-	cur = (*list)->n;
 
-	while (cur != NULL)
-	  {
-	    next = cur->next;
-	    perv = cur->perv;
+	while (cur)
+	{
+		temp = cur;
+		cur = cur->next;
 
-	cur = next
-	  }
-	print_list
+	while (temp->prev && temp->n < temp->prev->n)
+	{
+	temp->prev->next = temp->next;
+
+	if (temp->next)
+	temp->next->prev = temp->prev;
+
+	temp->next = temp->prev;
+	temp->prev = temp->prev->prev;
+	temp->next->prev = temp;
+	   
+	if (temp->prev)
+		temp->prev->next = temp;
+	else
+		*list = temp;
+	print_list(*list);
+	}
+	}
 }
+
