@@ -52,10 +52,12 @@ int partition(int *array, int lo, int hi, size_t size)
 	{
 	if (array[j] <= pivot)
 	{
+	if (i != j)
 	swap(&array[i], &array[j], array, size);
 		i = i + 1;
 	}
 	}
+	if (i != hi)
 	swap(&array[i], &array[hi], array, size);
 return (i);
 }
